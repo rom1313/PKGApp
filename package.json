@@ -1,0 +1,23 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "rom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "open": "^8.4.0",
+    "pkg": "^5.5.1"
+  },
+  "pkg": {
+    "assets": [
+      "img/img.png",
+      "index.html"
+    ]
+  },
+  "bin": "index.js"
+}
